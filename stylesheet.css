@@ -1,0 +1,74 @@
+body{
+     background-image: url("Assets/a repeating horizont.png"); 
+    background-size: 200px;
+    width:1000px;
+    margin:0 auto;
+}
+.contentContainer{
+    background-color: #8d2828;
+}
+.sloganStyle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    color:#FFECA3;
+   width:400px;
+   margin: 0 auto; 
+   text-align: center;
+}
+.ParaStyle{
+    font-family: Franklin Gothic Medium, 'Arial Narrow', Arial, 'sans-serif';
+    font-size:small;
+    color:hsl(48, 95%, 68%);
+    width:700px;
+    margin:0 auto;
+    text-align: center;
+}
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(4, 1fr);    
+  gap: 30px;
+  width: 500px;
+  margin-left: 175px;
+  margin-right: 100px;
+}
+
+.link-grid a {
+  display:grid;
+  align-items: center;
+  justify-content:center;
+  padding: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hate{
+    background-image: url(Assets/MinLuvImage.png);
+}
+.hate:hover{
+    filter: brightness(0.8);
+}
+
+.false{
+    background-image: url(Assets/MintrueImage.png);
+}
+.false:hover{
+    filter: brightness(0.8);
+}
+
+.poverty{
+    background-image: url(Assets/MinPlentyImage.png);
+}
+.poverty:hover{
+    filter: brightness(0.8);
+}
+
+.war{
+    background-image: url(Assets/MiniPaxImage.png);
+}
+.war:hover{
+    filter: brightness(0.8);
+}

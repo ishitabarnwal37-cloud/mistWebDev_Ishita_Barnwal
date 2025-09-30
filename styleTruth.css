@@ -1,0 +1,19 @@
+body{
+    background-image: url(Assets/newsbg.png);
+    background-repeat: repeat;
+    margin:0px auto;
+}
+.content{
+    background-color: #8d2828;
+    text-align: center;
+    width: 800px;
+    margin:0px auto;
+}
+.ParaStyle{
+    font-family: Franklin Gothic Medium, 'Arial Narrow', Arial, 'sans-serif';
+    font-size:small;
+    color:hsl(48, 95%, 68%);
+    width:700px;
+    margin:0 auto;
+    text-align: center;
+}
