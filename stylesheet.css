@@ -1,0 +1,24 @@
+@import "tailwindcss";
+/*h2{
+    display : flex;
+    text-align: center;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}*/
+.typewriter {
+    overflow: hidden;  
+    text-align: center;            
+    border-right: 3px solid black; 
+    white-space: nowrap;           
+    width: 0;                      
+    animation: typing 5s steps(37) forwards, blink 0.5s  infinite;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
